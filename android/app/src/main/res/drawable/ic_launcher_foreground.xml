@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  A checklist: three coloured dots with rule lines beside them. The safe zone of
+  an adaptive icon is the middle 72dp, so everything sits inside 18..90.
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp" android:height="108dp"
+    android:viewportWidth="108" android:viewportHeight="108">
+
+    <!-- row 1 -->
+    <path android:fillColor="#FF453A"
+        android:pathData="M36,40 m-6,0 a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0"/>
+    <path android:fillColor="#3C3C43" android:fillAlpha="0.5"
+        android:pathData="M50,37 h26 a3,3 0 0,1 0,6 h-26 a3,3 0 0,1 0,-6 z"/>
+
+    <!-- row 2 -->
+    <path android:fillColor="#FF9F0A"
+        android:pathData="M36,56 m-6,0 a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0"/>
+    <path android:fillColor="#3C3C43" android:fillAlpha="0.5"
+        android:pathData="M50,53 h22 a3,3 0 0,1 0,6 h-22 a3,3 0 0,1 0,-6 z"/>
+
+    <!-- row 3, ticked -->
+    <path android:fillColor="#0A84FF"
+        android:pathData="M36,72 m-6,0 a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0"/>
+    <path android:fillColor="#FFFFFF"
+        android:pathData="M33.2,72 l2,2 l4.2,-4.4"
+        android:strokeColor="#FFFFFF" android:strokeWidth="2"
+        android:strokeLineCap="round" android:strokeLineJoin="round"/>
+    <path android:fillColor="#3C3C43" android:fillAlpha="0.5"
+        android:pathData="M50,69 h18 a3,3 0 0,1 0,6 h-18 a3,3 0 0,1 0,-6 z"/>
+</vector>

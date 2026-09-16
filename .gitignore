@@ -1,0 +1,13 @@
+# Build output
+android/build/
+android/app/build/
+android/.gradle/
+android/local.properties
+*.apk
+mac/.build/
+mac/*.xcodeproj/
+
+# Editors / OS
+.idea/
+.DS_Store
+xcuserdata/

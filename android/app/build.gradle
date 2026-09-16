@@ -1,0 +1,27 @@
+plugins { id 'com.android.application' }
+
+android {
+    namespace 'com.saikiran.reminderssync'
+    compileSdk 36
+
+    defaultConfig {
+        applicationId "com.saikiran.reminderssync"
+        minSdk 26
+        targetSdk 36
+        versionCode 1
+        versionName "1.0"
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+    buildTypes {
+        debug { }
+    }
+}
+
+dependencies {
+    // Android's HttpURLConnection rejects PROPFIND/REPORT outright
+    // (ProtocolException), and CalDAV is built on them. OkHttp allows any method.
+    implementation 'com.squareup.okhttp3:okhttp:4.12.0'
+}
